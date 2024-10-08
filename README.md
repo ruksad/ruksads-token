@@ -30,7 +30,24 @@ npm start
 ```
 
 Open [http://localhost:3000/](http://localhost:3000/) to see your Dapp. You will
-need to have [Coinbase Wallet](https://www.coinbase.com/wallet) or [Metamask](https://metamask.io) installed and listening to
+need to have Coinbase Wallet or Metamask  installed and listening to
 `localhost 8545`.
 
 
+# Dapp
+
+```sh
+ This Daap is in charge of doing these things:
+   1. It connects to the user's wallet
+   2. Initializes ethers and the Token contract
+   3. Polls the user balance to keep it updated.
+   4. Transfers tokens by sending transactions
+   5. Renders the whole application
+
+ ``` 
+
+ for testing purpose you can add a few tokens using below command
+
+ ```sh
+    npx hardhat --network localhost faucet <address of your wallet>
+ ```
