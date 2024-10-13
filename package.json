@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Creating my own token to fun",
   "scripts": {
-    "test": "hardhat test"
+    "test": "hardhat test",
+    "debug-deploy":"npx hardhat run scripts/deploy.js --network localhost"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.7.0",

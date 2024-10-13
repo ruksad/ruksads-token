@@ -364,8 +364,8 @@ export class Dapp extends React.Component {
                 chainId: chainIdHex, // Chain ID for Hardhat Network (31337 in hexadecimal)
                 chainName: 'Hardhat Local Network',
                 nativeCurrency: {
-                    name: 'ETH',
-                    symbol: 'ETH',
+                    name: 'Ruksad\'s Token',
+                    symbol: 'MRST',
                     decimals: 18
                 },
                 rpcUrls: ['http://localhost:8545'], // URL of your local Hardhat node

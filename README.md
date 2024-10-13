@@ -14,6 +14,12 @@ Once installed, let's run Hardhat's testing network:
 npx hardhat node
 ```
 
+Run below command if contracts are not compiled
+
+```sh
+npx hardhat compile
+```
+
 Then, on a new terminal, go to the repository's root folder and run this to
 deploy your contract:
 

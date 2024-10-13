@@ -9,7 +9,7 @@ import "hardhat/console.sol";
 
 
 // This is the main building block for smart contracts.
-contract Token {
+contract RuksadToken {
     // Some string type variables to identify the token.
     string public name = "Ruksad's Token";
     string public symbol = "MRST";
